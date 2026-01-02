@@ -4,6 +4,7 @@ import georgia from '/Georgia.svg';
 
 
 
+
 function home() {
   const [count, setCount] = useState(0)
 
@@ -11,6 +12,9 @@ function home() {
 <>
     <div className='name'>
       <h1>Andrew Babatunde</h1>
+      <a href='./music' >
+        <p className='title-links'>music</p>
+      </a>
       </div>
       <div className='subtitle'>
          <p>im currently a Computer Science Student at The University of Georgia <br />

@@ -10,7 +10,18 @@
 
 .name {
   position: relative;
-  right:30vw;
+  align-items: center;
+  display: flex;
+  left: 11vh;
+  gap: 10vh;
+}
+
+.title-links {
+  position: relative;
+  color:white;
+  text-decoration: underline;
+  top: 7px;
+  font-size: x-large;
 }
 
 .subtitle{
