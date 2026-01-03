@@ -17,22 +17,19 @@ function home() {
       </a>
       </div>
       <div className='subtitle'>
-         <p>im currently a Computer Science Student at The University of Georgia <br />
-        Im interested in AI/ML technology aswell as building full-stack interactive applications
+         <p>aob85593 [at] uga [dot] edu
+          <br />
+          <br />im currently a Computer Science Student at The University of Georgia <br />
+        Im interested in AI/ML technology aswell as building full-stack interactive applications<br />
+        <br />
+         
+
       </p>
       
       <p className='subtitle-enrolled'>currently enrolled @</p>
       <a href='https://computing.uga.edu'>
       <img className='georgia' src={georgia} alt="georgia" />
 </a>
-      </div>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
       </div>
     </>
   );

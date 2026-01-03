@@ -1,0 +1,51 @@
+#root {
+    background-color: rgb(0, 0, 0);
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.title {
+    color: white;
+    position: relative;
+    display: flex;
+}
+
+.artists {
+    display: grid;
+    transform: scale(.20);
+    gap: 10vh;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+}
+
+.nav {
+  position: relative;
+  align-items: left;
+  display: block;
+  left: 11vh;
+  gap: 10vh;
+}
+
+.nav-links{
+position: relative;
+text-decoration: underline;
+right: 50vh;
+bottom: 7vh;
+color: white;
+font-size:x-large;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.image-grid img {
+
+}
+
+.para {
+    position: relative;
+    bottom: 5vh;
+    text-align: left;
+}
