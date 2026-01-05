@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './home.css'
 import georgia from '/Georgia.svg';
 
@@ -6,14 +5,19 @@ import georgia from '/Georgia.svg';
 
 
 function home() {
-  const [count, setCount] = useState(0)
 
   return (
 <>
     <div className='name'>
       <h1>Andrew Babatunde</h1>
       <a href='./music' >
-        <p className='title-links'>music</p>
+        <p className=' text-white text-2xl font-bold underline'>music</p>
+      </a>
+      <a href='https://www.linkedin.com/in/andrewbabatunde/'>
+      <p className='title-links'>linkedin</p>
+      </a>
+      <a href='https://github.com/andrew-babatunde2004'>
+      <p className='title-links'>github</p>
       </a>
       </div>
       <div className='subtitle'>
@@ -28,7 +32,7 @@ function home() {
       
       <p className='subtitle-enrolled'>currently enrolled @</p>
       <a href='https://computing.uga.edu'>
-      <img className='georgia' src={georgia} alt="georgia" />
+      <img className='absolute mr-32 transform scale-50'src={georgia} />
 </a>
       </div>
     </>
