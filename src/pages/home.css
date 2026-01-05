@@ -8,44 +8,11 @@
   overflow: hidden;
 }
 
-.name {
-  position: relative;
-  align-items: center;
-  display: flex;
-  left: 11vh;
-  gap: 10vh;
-}
 
-.title-links {
-  position: relative;
-  color:white;
-  text-decoration: underline;
-  top: 7px;
-  font-size: x-large;
-}
 
-.subtitle{
-  position: relative;
-  left:6.8vw;
-  text-align: left;
-  
-}
 
-.subtitle-enrolled{
-  text-decoration: underline;
-}
 
-.georgia{
-  position: absolute;
-  transform: scale(.40);
-  top:10vh;
-  right:85vw;
-}
 
-.text {
-  padding: 20px;
-}
 
-.card {
-  padding: 2em;
-}
+
+

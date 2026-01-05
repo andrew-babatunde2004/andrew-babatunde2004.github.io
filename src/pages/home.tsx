@@ -1,26 +1,23 @@
 import './home.css'
 import georgia from '/Georgia.svg';
 
-
-
-
 function home() {
 
   return (
 <>
-    <div className='name'>
+    <div className='relative flex left-[14vh] gap-[20vh] font-sans items-center  '>
       <h1>Andrew Babatunde</h1>
       <a href='./music' >
         <p className=' text-white text-2xl font-bold underline'>music</p>
       </a>
       <a href='https://www.linkedin.com/in/andrewbabatunde/'>
-      <p className='title-links'>linkedin</p>
+      <p className=' text-white text-2xl font-bold underline'>linkedin</p>
       </a>
       <a href='https://github.com/andrew-babatunde2004'>
-      <p className='title-links'>github</p>
+      <p className=' text-white text-2xl font-bold underline'>github</p>
       </a>
       </div>
-      <div className='subtitle'>
+      <div className='relative text-left left-[6.8vw]'>
          <p>aob85593 [at] uga [dot] edu
           <br />
           <br />im currently a Computer Science Student at The University of Georgia <br />
@@ -30,9 +27,9 @@ function home() {
 
       </p>
       
-      <p className='subtitle-enrolled'>currently enrolled @</p>
+      <p className='underline'>currently enrolled @</p>
       <a href='https://computing.uga.edu'>
-      <img className='absolute mr-32 transform scale-50'src={georgia} />
+      <img className='absolute top-[10vh] right-[82vw] transform scale-50'src={georgia} />
 </a>
       </div>
     </>
