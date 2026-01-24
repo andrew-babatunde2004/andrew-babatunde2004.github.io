@@ -1,11 +1,14 @@
 import './home.css'
 import georgia from '/Georgia.svg';
+import React, {useState} from 'react';
 
 function home() {
+  const [isDark, setIsDark] = useState(true);
 
   return (
-<>
-    <div className='relative flex ml-28 gap-[20vh] font-sans items-center  '>
+
+<div data-theme={isDark ? "dark" : "light"}>
+    <div className='relative flex left-[14vh] gap-[20vh] font-sans items-center'>
       <h1>Andrew Babatunde</h1>
       
       {/* <a href='./music' >
@@ -59,7 +62,7 @@ function home() {
 <p>ACM</p>
 <p>DevDogs</p>
       </div>
-    </>
+   </div>
   );
 };
 
