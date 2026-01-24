@@ -5,7 +5,7 @@ function home() {
 return (
 <>
 <div className='h-screen grid place-items-center'>
-    <div className=' flex  ml-32 gap-[20vh] font-sans items-center'>
+    <div className=' flex  ml-24 gap-[20vh] font-sans items-center'>
       <h1>hi, im andrew babatunde</h1>
       
       {/* <a href='./music' >
@@ -20,7 +20,7 @@ return (
       <p className=' text-white text-2xl font-bold underline'>github</p>
       </a>
       </div>
-      <div className='relative text-left mb-90 mr-80 '>
+      <div className='relative text-left mb-90 mr-90 '>
          <p>aob85593 [at] uga [dot] edu
           <br />
           <br />im currently a junior at the university of georgia studying computer science <br />
@@ -33,23 +33,23 @@ return (
 
       </p>
        
-      <p className='text-white underline mb-5'>currently enrolled @ <a href='https://computing.uga.edu'>UGA</a></p> 
+      <p className='text-white  mb-5'>currently enrolled @ <a href='https://computing.uga.edu'><span className='text-red-600'>UGA</span></a></p> 
       {/* am I fucking stupid fix the georgia image moving to the right +
       I have never wrote a comment like this before what the heck*/}    
 <div>
-<h1 className='mb-1'>Projects</h1>
+<h1 className='mb-1'>projects</h1>
 <a href='https://github.com/andrew-babatunde2004/cs1302-api-app'>
-<p className=' text-white underline mb-3 font-mono'>Internship Finder ↗ </p>
+<p className=' text-white underline mb-3 '>Internship Finder ↗ </p>
 </a>
 <a href='https://github.com/andrew-babatunde2004/electron-local-music-hoster'>
-<p className='text-white underline font-mono'>Locally Hosted Music Player ↗</p>
+<p className='text-white underline'>Locally Hosted Music Player ↗</p>
 </a>
 <br />
 </div>
-<h1> Contributions </h1>
+<h1> contributions </h1>
 <p className='text-white underline'>DevDogs ↗</p>
 <br />
-<h1>LeaderShip</h1>
+<h1>leadership</h1>
 <p>Suwanne Youth Leaders ↗</p>
 <p>ColorStack ↗</p>
 <p>ACM ↗</p>
