@@ -33,7 +33,7 @@ return (
 
       </p>
        
-      <p className='text-white  mb-5'>currently enrolled @ <a href='https://computing.uga.edu'><span className='text-red-600'>the university of georgia</span></a></p> 
+      <p className='text-white  mb-5'>currently enrolled at <a href='https://computing.uga.edu'><span className='text-red-600'>the university of georgia</span></a></p> 
       {/* am I fucking stupid fix the georgia image moving to the right +
       I have never wrote a comment like this before what the heck*/}    
 <div className='flex-col'>
