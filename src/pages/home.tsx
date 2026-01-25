@@ -4,8 +4,8 @@ function home() {
 
 return (
 <div className='h-screen grid place-items-center'>
-    <div className=' relative bottom-12 flex gap-[15vh] font-sans items-center'>
-      <h1>hi, im andrew babatunde!</h1>
+    <div className=' relative left-6 bottom-12 flex gap-[15vh] font-sans items-center'>
+      <h1 className='font-bold'>hi, im andrew babatunde!</h1>
       
       {/* <a href='./music' >
         <p className=' text-white text-2xl font-bold underline'>music</p>
@@ -37,27 +37,38 @@ return (
       {/* am I fucking stupid fix the georgia image moving to the right +
       I have never wrote a comment like this before what the heck*/}    
 <div className='flex-col'>
-<h1 className='mb-1'>projects</h1>
+<h1 className='mb-5'>projects</h1>
 <a href='https://github.com/andrew-babatunde2004/cs1302-api-app'>
-<p className=' text-white underline mb-3 '>Internship Finder ↗ </p>
+<p className=' text-white  mb-3 '>Internship Finder ↗ </p>
 </a>
 <a href='https://github.com/andrew-babatunde2004/electron-local-music-hoster'>
-<p className='text-white underline'>Locally Hosted Music Player ↗</p>
+<p className='text-white'>Locally Hosted Music Player ↗</p>
 </a>
 <br />
 </div>
 <div>
-<h1> contributions </h1>
+<h1 className='mb-5'> contributions </h1>
 <a href='https://github.com/DevDogs-UGA'>
-<p className='text-white underline'>DevDogs ↗</p>
+<p className='text-white'>DevDogs ↗</p>
 </a>
 </div>
 <br />
-<h1>leadership</h1>
-<p>Suwanne Youth Leaders ↗</p>
-<p>ColorStack ↗</p>
-<p>ACM ↗</p>
-<p>DevDogs ↗</p>
+<h1 className='mb-5'>leadership</h1>
+
+<a href='https://www.suwanee.com/engage/suwanee-youth-leaders'>
+<p className='text-white'>Suwanne Youth Leaders ↗</p>
+</a>
+
+<a href='https://www.colorstack.org'>
+<p className='text-white'>ColorStack ↗</p>
+</a>
+<a href='https://acm-uga.github.io'>
+<p className='text-white'>ACM ↗</p>
+</a>
+<a href='https://github.com/DevDogs-UGA'>
+<p className='text-white'>DevDogs ↗</p>
+</a>
+
    </div>
         <p className='text-gray-500'>© 2025 Andrew Babatunde</p>
 </div>
