@@ -3,9 +3,9 @@ import './home.css'
 function home() {
 
 return (
-<div className='min-h-screen grid place-items-center py-20'>
-    <div className='relative left-6 flex gap-24 font-sans items-center mb-20'>
-      <h1 className='font-bold text-left '>hi, im andrew babatunde!</h1>
+<div className='home-container min-h-screen grid place-items-center py-20'>
+    <div className='home-header relative left-6 flex gap-24 font-sans items-center mb-20'>
+      <h1 className='home-title font-bold text-left '>hi, im andrew babatunde!</h1>
       
       {/* <a href='./music' >
         <p className=' text-white text-2xl font-bold underline'>music</p>
@@ -13,14 +13,14 @@ return (
       */}
 
       <a href='https://www.linkedin.com/in/andrewbabatunde/'>
-      <p className=' text-white text-2xl font-bold underline'>linkedin</p>
+      <p className='home-link text-white text-2xl font-bold underline'>linkedin</p>
       </a>
       <a href='https://github.com/andrew-babatunde2004'>
-      <p className=' text-white text-2xl font-bold underline'>github</p>
+      <p className='home-link text-white text-2xl font-bold underline'>github</p>
       </a>
       </div>
 
-      <div className='text-left mr-90 mb-20'>
+      <div className='home-content text-left mr-90 mb-20'>
          <p>aob85593 [at] uga [dot] edu
           <br />
           <br />im currently a junior at the university of georgia studying computer science <br />
@@ -70,7 +70,7 @@ return (
 </a>
 
    </div>
-        <p className='text-gray-500 mb-20'>© 2025 Andrew Babatunde</p>
+        <p className='home-footer text-gray-500 mb-20'>© 2025 Andrew Babatunde</p>
 </div>
   );
 };
