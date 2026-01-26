@@ -3,9 +3,9 @@ import './home.css'
 function home() {
 
 return (
-<div className='h-screen grid place-items-center'>
-    <div className=' relative left-6 bottom-12 flex gap-24 font-sans items-center'>
-      <h1 className='font-bold'>hi, im andrew babatunde!</h1>
+<div className='min-h-screen grid place-items-center py-20'>
+    <div className='relative left-6 flex gap-24 font-sans items-center mb-20'>
+      <h1 className='font-bold text-left '>hi, im andrew babatunde!</h1>
       
       {/* <a href='./music' >
         <p className=' text-white text-2xl font-bold underline'>music</p>
@@ -20,7 +20,7 @@ return (
       </a>
       </div>
 
-      <div className='relative bottom-36 text-left mr-90 '>
+      <div className='text-left mr-90 mb-20'>
          <p>aob85593 [at] uga [dot] edu
           <br />
           <br />im currently a junior at the university of georgia studying computer science <br />
@@ -70,7 +70,7 @@ return (
 </a>
 
    </div>
-        <p className='text-gray-500'>© 2025 Andrew Babatunde</p>
+        <p className='text-gray-500 mb-20'>© 2025 Andrew Babatunde</p>
 </div>
   );
 };
