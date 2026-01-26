@@ -2,7 +2,7 @@
   margin: 0 auto;
   background-color: rgb(0, 0, 0);
   position: relative;
-  overflow: auto;
+  
 }
 
 /* Home Page Styles */
@@ -44,6 +44,7 @@
     padding: 1rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    overflow: auto;
   }
 
   .home-header {
@@ -88,6 +89,7 @@
 @media (min-width: 769px) {
   .home-container {
     padding: 2rem;
+    overflow: hidden;
   }
 
   .home-header {
@@ -122,6 +124,7 @@
 @media (min-width: 1200px) {
   .home-header {
     gap: 8rem;
+    overflow: hidden;
   }
 
   .home-title {

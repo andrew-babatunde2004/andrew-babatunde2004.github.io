@@ -4,8 +4,8 @@ function home() {
 
 return (
 <div className='home-container min-h-screen grid place-items-center py-20'>
-    <div className='home-header relative left-6 flex gap-24 font-sans items-center mb-20'>
-      <h1 className='home-title font-bold text-left '>hi, im andrew babatunde!</h1>
+    <div className='home-header relative mr-80 flex gap-24 font-sans items-center mb-20'>
+      <h1 className='home-title font-bold text-left'>hi, im andrew!</h1>
       
       {/* <a href='./music' >
         <p className=' text-white text-2xl font-bold underline'>music</p>
