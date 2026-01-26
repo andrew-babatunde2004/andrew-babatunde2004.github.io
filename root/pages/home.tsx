@@ -4,7 +4,7 @@ function home() {
 
 return (
 <div className='h-screen grid place-items-center'>
-    <div className=' relative left-6 bottom-12 flex gap-[15vh] font-sans items-center'>
+    <div className=' relative left-6 bottom-12 flex gap-24 font-sans items-center'>
       <h1 className='font-bold'>hi, im andrew babatunde!</h1>
       
       {/* <a href='./music' >

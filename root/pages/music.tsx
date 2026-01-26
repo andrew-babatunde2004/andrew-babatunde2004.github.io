@@ -23,9 +23,9 @@ function music() {
         <div className='nav'>
             <h1 className='relative flex text-white '>my music</h1>
             <a href='./' >
-            <p className='relative underline right-[50vh] bottom-[3vh] text-white'> home </p>
+            <p className='relative underline right-[500px] bottom-12 text-white'> home </p>
             </a>
-            <p className='relative top-[3vh] text-left'>music has been a such a influential part of my life <br />
+            <p className='relative top-12 text-left'>music has been a such a influential part of my life <br />
             im pretty much always listening to music if your reading this im probably listening to music right now</p>
             </div>
 
