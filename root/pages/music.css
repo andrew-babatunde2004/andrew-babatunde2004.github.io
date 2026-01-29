@@ -4,3 +4,6 @@
   min-width: 100vw;
 }
 
+.home-link{
+    white-space: nowrap;
+}

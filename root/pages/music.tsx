@@ -48,15 +48,16 @@ function music() {
             <div className="min-h-screen p-8 max-w-6xl mx-auto">
                 <div className='mb-12'>
                     <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6">
-                        <h1 className='text-white text-4xl font-bold mb-4 md:mb-0'>my music</h1>
-                        <Link to='/' className="text-white underline text-xl hover:text-gray-300 transition-colors">
-                            home
+                        <h1 className='text-white text-4xl font-bold mb-4 md:mb-0'>my listening history</h1>
+                        <Link to='/' className="home-link text-white underline text-xl hover:text-gray-300 transition-colors">
+                            <p className='text-white underline hover:text-red-600 transition-colors '>home</p>
                         </Link>
                     </div>
 
                     <p className='text-left text-gray-300 max-w-2xl leading-relaxed'>
-                        music has been a such a influential part of my life <br />
-                        im pretty much always listening to music if your reading this im probably listening to music right now
+              please interact with the album covers < br />
+              to get an idea of the music I listen to!
+                        
                     </p>
                 </div>
 
@@ -76,7 +77,10 @@ function music() {
                     <div className="cursor-pointer hover:opacity-80 transition-opacity" onClick={() => playSound(sound2)}>
                         <img src={ken} alt='ken' className="w-full h-auto rounded-lg shadow-lg" />
                     </div>
-                </div>
+          </div>
+          <p className="home-footer text-gray-500 mt-20 text-sm">
+            © 2025 Andrew Babatunde
+          </p>
 
             </div>
         </>
