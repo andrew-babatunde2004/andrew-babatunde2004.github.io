@@ -33,27 +33,29 @@ function home() {
               music
             </p>
           </Link>
+          <Link to="/literature">
+            <p className="home-link text-white text-xl md:text-2xl font-bold underline hover:text-gray-300 transition-colors">
+              literature
+            </p>
+          </Link>
         </div>
       </div>
 
       <div className="home-content text-left w-full max-w-2xl mx-auto mb-20 md:mb-20">
-        <p className="text-lg md:text-xl leading-relaxed">
+        <p className="text-lg md:text-xl leading-relaxed mb-10">
           aob85593 [at] uga [dot] edu
-          <br />
-          <br />
-          im currently a junior at the university of georgia studying computer
-          science <br />
-          I started coding back in highschool but I have been around computers
-          my entire life professional as coding is I try my best to be creative
-          with everything to be unique right now im learning web design and
-          AI/ML technology as well as furthering my knowledge of java for
-          full-stack applications <br />
+        </p>
+        {/* mr-60 changes the how the paragraph goes into the page, either figure out how to fill up the blank space or remove entirely */}
+        <p className="text-lg md:text-xl text-left mb-30 mr-60">
+          currently a computer science major with applications in data science
+          and machine learning. self-proclaimed gym enthusiast and avid enjoyer
+          of literature and music
         </p>
 
         <p className="text-white mb-8 text-lg">
           currently enrolled at{" "}
           <a href="https://computing.uga.edu" target="_blank" rel="noreferrer">
-            <span className="text-red-600 font-bold hover:underline">
+            <span className="text-red-600 font-bold underline">
               the university of georgia
             </span>
           </a>
@@ -94,7 +96,7 @@ function home() {
           <div>
             <h1 className="mb-5 text-2xl font-bold"> contributions </h1>
             <a
-              href="https://github.com/DevDogs-UGA"
+              href="https://github.com/DevDogs-UGA/Community-Resource-Forum"
               target="_blank"
               rel="noreferrer"
             >

@@ -8,9 +8,11 @@ import sound2 from '/function.mp3'
 import { useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 
-function music() {
+function Music() {
 
-    const audioRef = useRef<HTMLAudioElement | null>(null);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+  
+  // 
     const [playingSrc, setPlayingSrc] = useState<string | null>(null);
 
     const playSound = (soundFile: string) => {
@@ -44,8 +46,9 @@ function music() {
     };
 
     return (
-        <>
-            <div className="min-h-screen p-8 max-w-6xl mx-auto">
+      <>
+          {/* css for the entire container */}
+          <div className="min-h-screen p-8 max-w-6xl mx-auto">
                 <div className='mb-12'>
                     <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6">
                         <h1 className='text-white text-4xl font-bold mb-4 md:mb-0'>my listening history</h1>
@@ -89,4 +92,4 @@ function music() {
 
 }
 
-export default music
+export default Music
