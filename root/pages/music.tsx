@@ -5,15 +5,18 @@ import ken from '/ken.png'
 import charm from '/charm.png'
 import sound1 from '/romeo.mp3'
 import sound2 from '/function.mp3'
-import { useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 
 function Music() {
-
   const audioRef = useRef<HTMLAudioElement | null>(null);
-  
-  // 
-    const [playingSrc, setPlayingSrc] = useState<string | null>(null);
+  const [playingSrc, setPlayingSrc] = useState<string | null>(null);
+
+    useEffect(() => {
+        return () => {
+            audioRef.current?.pause();
+        };
+    }, []);
 
     const playSound = (soundFile: string) => {
         // If clicking the currently playing song
@@ -48,43 +51,41 @@ function Music() {
     return (
       <>
           {/* css for the entire container */}
-          <div className="min-h-screen p-8 max-w-6xl mx-auto">
-                <div className='mb-12'>
-                    <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6">
-                        <h1 className='text-white text-4xl font-bold mb-4 md:mb-0'>my listening history</h1>
-                        <Link to='/' className="home-link text-white underline text-xl hover:text-gray-300 transition-colors">
-                            <p className='text-white underline hover:text-red-600 transition-colors '>home</p>
+          <div className="music-page min-h-screen px-5 py-8 sm:px-8 md:px-10">
+                <div className='mx-auto flex min-h-screen w-full max-w-5xl flex-col justify-center gap-8'>
+                    <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+                        <h1 className='text-white text-4xl font-bold md:text-5xl'>my listening history</h1>
+                        <Link to='/' className="home-link text-xl text-white underline transition-colors hover:text-gray-300">
+                            <span className='text-white underline transition-colors hover:text-red-600'>home</span>
                         </Link>
                     </div>
 
-                    <p className='text-left text-gray-300 max-w-2xl leading-relaxed'>
-              heres just a few of the albums i've been < br />
+                    <p className='max-w-2xl text-left leading-relaxed text-gray-300'>
+              heres just a few of the albums i've been <br />
               listening to lately!
-                        
                     </p>
+
+                <div className='grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3'>
+                    <div className="music-card cursor-pointer transition-opacity hover:opacity-80" onClick={() => playSound(sound1)}>
+                        <img src={pink} alt='pink' className="h-auto w-full rounded-lg shadow-lg" />
+                    </div>
+
+                    <div className="music-card cursor-pointer transition-opacity hover:opacity-80" onClick={() => playSound(sound2)}>
+                        <img src={osama} alt='osama' className="h-auto w-full rounded-lg shadow-lg" />
+                    </div>
+
+                    <div className="music-card cursor-pointer transition-opacity hover:opacity-80" onClick={() => playSound(sound2)}>
+                        <img src={charm} alt='charm' className="h-auto w-full rounded-lg shadow-lg" />
+                    </div>
+
+                    <div className="music-card cursor-pointer transition-opacity hover:opacity-80" onClick={() => playSound(sound2)}>
+                        <img src={ken} alt='ken' className="h-auto w-full rounded-lg shadow-lg" />
+                    </div>
                 </div>
-
-                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center'>
-                    <div className="cursor-pointer hover:opacity-80 transition-opacity" onClick={() => playSound(sound1)}>
-                        <img src={pink} alt='pink' className="w-full h-auto rounded-lg shadow-lg" />
-                    </div>
-
-                    <div className="cursor-pointer hover:opacity-80 transition-opacity" onClick={() => playSound(sound2)}>
-                        <img src={osama} alt='osama' className="w-full h-auto rounded-lg shadow-lg" />
-                    </div>
-
-                    <div className="cursor-pointer hover:opacity-80 transition-opacity" onClick={() => playSound(sound2)}>
-                        <img src={charm} alt='charm' className="w-full h-auto rounded-lg shadow-lg" />
-                    </div>
-
-                    <div className="cursor-pointer hover:opacity-80 transition-opacity" onClick={() => playSound(sound2)}>
-                        <img src={ken} alt='ken' className="w-full h-auto rounded-lg shadow-lg" />
-                    </div>
-          </div>
-          <p className="home-footer text-gray-500 mt-20 text-sm">
+          <p className="home-footer pt-2 text-sm text-gray-500">
             © 2025 Andrew Babatunde
           </p>
-
+                </div>
             </div>
         </>
 
