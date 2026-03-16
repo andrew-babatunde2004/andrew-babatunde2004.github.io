@@ -56,8 +56,8 @@ function home() {
           </a>
         </p>
 
-        <div className="grid grid-cols-1 gap-7 md:grid-cols-2 md:gap-8">
-          <div className="flex flex-col gap-4">
+        <div className="space-y-8">
+          <div className="projects-list">
             <h2 className="text-2xl font-bold">projects</h2>
             <a 
               href="https://github.com/andrew-babatunde2004/UGAHACKS11"
@@ -103,19 +103,7 @@ function home() {
             </a>
           </div>
 
-          <div className="flex flex-col gap-4">
-            <h2 className="text-2xl font-bold">contributions</h2>
-            <a
-              href="https://github.com/DevDogs-UGA/Community-Resource-Forum"
-              target="_blank"
-              rel="noreferrer"
-              className="project-link"
-            >
-              <span className="project-title">DevDogs ↗</span>
-            </a>
-          </div>
-
-          <div className="md:col-span-2">
+          <div>
             <h2 className="mb-4 text-2xl font-bold">leadership</h2>
             <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
               <a
