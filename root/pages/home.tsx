@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function home() {
   return (
     <div className="home-container min-h-screen grid place-items-center py-10 px-10 md:py-2">
-      <div className="home-header px-26 flex flex-col md:flex-row gap-10 md:gap-10 font-sans items-center mb-10 md:mb-20 w-full max-w-4xl mx-auto">
+      <div className="home-header px-26 flex flex-col md:flex-row gap-10 md:gap-10 font-sans items-center mb-1 md:mb-0 w-full max-w-4xl mx-auto">
         <h1 className="home-title font-bold text-center md:text-left text-4xl md:text-6xl">
           hi, im andrew!
         </h1>
@@ -33,20 +33,21 @@ function home() {
               music
             </p>
           </Link>
-          <Link to="/literature">
+         {/*  <Link to="/literature">
             <p className="home-link text-white text-xl md:text-2xl font-bold underline hover:text-gray-300 transition-colors">
               literature
             </p>
-          </Link>
+          </Link> */}
+         
         </div>
       </div>
 
-      <div className="home-content text-left w-full max-w-2xl mx-auto mb-20 md:mb-20">
+      <div className="home-content text-left w-full max-w-2xl mx-auto mb-10 md:mb-1">
         <p className="text-lg md:text-xl leading-relaxed mb-10">
           aob85593 [at] uga [dot] edu
         </p>
         {/* mr-60 changes the how the paragraph goes into the page, either figure out how to fill up the blank space or remove entirely */}
-        <p className="text-lg md:text-xl text-left mb-30 mr-60">
+        <p className="text-lg md:text-xl text-left mb-10 mr-60">
           currently a computer science major with applications in data science
           and machine learning. self-proclaimed gym enthusiast and avid enjoyer
           of literature and music
@@ -64,13 +65,25 @@ function home() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="flex flex-col">
             <h1 className="mb-5 text-2xl font-bold">projects</h1>
+            <a 
+              href="https://github.com/andrew-babatunde2004/UGAHACKS11"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <p className="text-white mb-3 hover:text-gray-300 transition-colors">
+                ApothoKeep ↗
+                <p className=""> an gemini-leverged app to keep track of your food </p>
+              </p>
+
+              </a>
             <a
               href="https://github.com/andrew-babatunde2004/cs1302-api-app"
               target="_blank"
               rel="noreferrer"
             >
               <p className="text-white mb-3 hover:text-gray-300 transition-colors">
-                Internship Finder ↗{" "}
+                Internship Finder ↗
+                <p>Cross Refrences APIs to give accurate weather information about potential internships</p>
               </p>
             </a>
             <a
@@ -80,6 +93,7 @@ function home() {
             >
               <p className="text-white mb-3 hover:text-gray-300 transition-colors">
                 Locally Hosted Music Player ↗
+                <p>Allows the users to locally run any mp3 files from a home server from any device given access</p>
               </p>
             </a>
             <a
@@ -89,6 +103,7 @@ function home() {
             >
               <p className="text-white hover:text-gray-300 transition-colors">
                 AstroTutor ↗
+                <p>A OpenAI-Leverged K-12 Education App that teaches explains the solar system to students in an elementary context </p>
               </p>
             </a>
           </div>
@@ -110,12 +125,12 @@ function home() {
             <h1 className="mb-5 text-2xl font-bold">leadership</h1>
             <div className="grid grid-cols-1 sm:grid-cols- gap-4">
               <a
-                href="https://www.suwanee.com/engage/suwanee-youth-leaders"
+                href="https://ktpgeorgia.com"
                 target="_blank"
                 rel="noreferrer"
               >
                 <p className="text-white hover:text-gray-300 transition-colors">
-                  Suwanne Youth Leaders ↗
+                  Kappa Theta Pi @ UGA ↗
                 </p>
               </a>
 

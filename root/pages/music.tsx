@@ -58,8 +58,8 @@ function Music() {
                     </div>
 
                     <p className='text-left text-gray-300 max-w-2xl leading-relaxed'>
-              please interact with the album covers < br />
-              to get an idea of the music I listen to!
+              heres just a few of the albums i've been < br />
+              listening to lately!
                         
                     </p>
                 </div>
