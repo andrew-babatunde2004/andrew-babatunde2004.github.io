@@ -21,7 +21,7 @@ function home() {
             </span>
           </a>
           <a 
-          href="public/Andrew_Babatunde_Resume.pdf"
+          href="public/Andrew_Babatunde_2026_Final_Web.pdf"
           target="_blank"
           rel="noreferrer"
           >
