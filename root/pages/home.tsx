@@ -20,6 +20,15 @@ function home() {
               linkedin
             </span>
           </a>
+          <a 
+          href="public/Andrew_Babatunde_Resume.pdf"
+          target="_blank"
+          rel="noreferrer"
+          >
+          <span className="home-link text-white text-xl font-bold underline transition-colors hover:text-gray-300 md:text-2xl">
+              resume
+            </span>
+            </a>
           <a
             href="https://github.com/andrew-babatunde2004"
             target="_blank"

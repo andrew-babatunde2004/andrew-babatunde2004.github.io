@@ -3,6 +3,8 @@ import osama from '/psykotic.png'
 import pink from '/pink.png'
 import ken from '/ken.png'
 import charm from '/charm.png'
+import icon from '/Iconfaiyaz.png'
+import nett from '/nett.webp'
 import sound1 from '/romeo.mp3'
 import sound2 from '/function.mp3'
 import { useEffect, useRef, useState } from 'react'
@@ -54,17 +56,19 @@ function Music() {
           <div className="music-page min-h-screen px-5 py-8 sm:px-8 md:px-10">
                 <div className='mx-auto flex min-h-screen w-full max-w-5xl flex-col justify-center gap-8'>
                     <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
-                        <h1 className='text-white text-4xl font-bold md:text-5xl'>my listening history</h1>
+                        <h1 className='text-white text-4xl font-bold md:text-5xl'>current rotation</h1>
                         <Link to='/' className="home-link text-xl text-white underline transition-colors hover:text-gray-300">
                             <span className='text-white underline transition-colors hover:text-red-600'>home</span>
                         </Link>
                     </div>
 
                     <p className='max-w-2xl text-left leading-relaxed text-gray-300'>
-              heres just a few of the albums i've been <br />
-              listening to lately!
+              heres the music <br />
+              im currently listening to!
                     </p>
 
+                {/* fix the sounds for the current files and fix the sizing as well to include a few more albums */}
+                {/* sm and lg are for the diff screen sizes that helps diff when screens are on mobile */}
                 <div className='grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3'>
                     <div className="music-card cursor-pointer transition-opacity hover:opacity-80" onClick={() => playSound(sound1)}>
                         <img src={pink} alt='pink' className="h-auto w-full rounded-lg shadow-lg" />
@@ -80,6 +84,12 @@ function Music() {
 
                     <div className="music-card cursor-pointer transition-opacity hover:opacity-80" onClick={() => playSound(sound2)}>
                         <img src={ken} alt='ken' className="h-auto w-full rounded-lg shadow-lg" />
+                    </div>
+                    <div className="music-card cursor-pointer transition-opacity hover:opacity-80" onClick={() => playSound(sound2)}>
+                        <img src={icon} alt='icon' className="h-auto w-full rounded-lg shadow-lg" />
+                    </div>
+                    <div className="music-card cursor-pointer transition-opacity hover:opacity-80" onClick={() => playSound(sound2)}>
+                        <img src={nett} alt='nett' className="h-auto w-full rounded-lg shadow-lg" />
                     </div>
                 </div>
           <p className="home-footer pt-2 text-sm text-gray-500">
