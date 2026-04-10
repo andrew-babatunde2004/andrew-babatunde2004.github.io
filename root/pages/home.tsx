@@ -77,6 +77,17 @@ function home() {
               <span className="project-title">ApothoKeep ↗</span>
               <span className="project-description">a gemini-leveraged app to keep track of your food</span>
             </a>
+             <a
+              href="https://github.com/andrew-babatunde2004/TradeWise-AI"
+              target="_blank"
+              rel="noreferrer"
+              className="project-link"
+            >
+              <span className="project-title">TradeWise-AI ↗</span>
+              <span className="project-description">
+                an AI-powered stock market app that uses machine learningn to predict price trends and generate investment insights.
+              </span>
+            </a>
             <a
               href="https://github.com/andrew-babatunde2004/cs1302-api-app"
               target="_blank"
