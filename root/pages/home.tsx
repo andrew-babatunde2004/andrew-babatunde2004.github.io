@@ -20,7 +20,7 @@ function home() {
               linkedin
             </span>
           </a>
-          <a 
+          <a
           href="ANDREW_2026.pdf"
           target="_blank"
           rel="noreferrer"
@@ -68,7 +68,7 @@ function home() {
         <div className="space-y-8">
           <div className="projects-list">
             <h2 className="text-2xl font-bold">projects</h2>
-            <a 
+            <a
               href="https://github.com/andrew-babatunde2004/UGAHACKS11"
               target="_blank"
               rel="noreferrer"
@@ -164,7 +164,7 @@ function home() {
         </div>
       </div>
       <p className="home-footer pt-2 text-sm text-gray-500">
-        © 2025 Andrew Babatunde
+        © 2026 Andrew Babatunde
       </p>
       </div>
     </div>
