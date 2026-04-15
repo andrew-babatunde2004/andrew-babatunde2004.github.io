@@ -38,11 +38,6 @@ function home() {
               github
             </span>
           </a>
-          <Link to="/music">
-            <span className="home-link text-white text-xl font-bold underline transition-colors hover:text-gray-300 md:text-2xl">
-              music
-            </span>
-          </Link>
         </div>
       </div>
 
