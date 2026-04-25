@@ -6,11 +6,11 @@ function home() {
     <div className="home-container min-h-screen px-5 py-8 sm:px-8 md:px-10 md:py-8">
       <div className="home-shell mx-auto flex min-h-screen w-full max-w-5xl flex-col justify-center gap-8 md:gap-10">
       <div className="home-header flex flex-col gap-5 font-sans md:flex-row md:items-end md:justify-between">
-        <div className="flex flex-col items-center gap-4 md:flex-row md:items-end">
+        <div className="home-intro">
           <h1 className="home-title font-bold text-center text-4xl md:text-left md:text-6xl">
             hi, im andrew!
           </h1>
-          <img className="m-0 top-10 ml-90 max-w-50 absolute" src={logo} alt="Andrew logo" />
+          <img className="home-logo" src={logo} alt="Andrew logo" />
         </div>
         <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 md:justify-end">
           <a
