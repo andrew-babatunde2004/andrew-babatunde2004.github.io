@@ -1,14 +1,17 @@
 import "./home.css";
+import logo from "/andrewlogo.svg";
 
 function home() {
   return (
     <div className="home-container min-h-screen px-5 py-8 sm:px-8 md:px-10 md:py-8">
       <div className="home-shell mx-auto flex min-h-screen w-full max-w-5xl flex-col justify-center gap-8 md:gap-10">
       <div className="home-header flex flex-col gap-5 font-sans md:flex-row md:items-end md:justify-between">
-        <h1 className="home-title font-bold text-center text-4xl md:text-left md:text-6xl">
-          hi, im andrew!
-        </h1>
-
+        <div className="flex flex-col items-center gap-4 md:flex-row md:items-end">
+          <h1 className="home-title font-bold text-center text-4xl md:text-left md:text-6xl">
+            hi, im andrew!
+          </h1>
+          <img className="m-0 top-10 ml-90 max-w-50 absolute" src={logo} alt="Andrew logo" />
+        </div>
         <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 md:justify-end">
           <a
             href="https://www.linkedin.com/in/andrewbabatunde/"
@@ -138,13 +141,16 @@ function home() {
                 <span className="project-title">ColorStack ↗</span>
               </a>
               <a
-                href="https://acm-uga.github.io"
+                href="https://devs-on-wall-street.github.io/"
                 target="_blank"
                 rel="noreferrer"
                 className="project-link"
               >
-                <span className="project-title">ACM ↗</span>
-              </a>
+                  <span className="project-title">Devs On WallStreet ↗</span>
+                  <p className="text-gray-400">currently the Head Web Developer <br />
+                    Helping to maintain the website and  <br /> create new features to enhance user experience
+                    </p>
+                </a>
               <a
                 href="https://github.com/DevDogs-UGA"
                 target="_blank"
