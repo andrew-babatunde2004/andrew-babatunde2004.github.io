@@ -23,7 +23,7 @@ function home() {
             </span>
           </a>
           <a
-          href="ANDREW BABATUNDE APRIL 2026 (1).pdf"
+          href="Resume_Andrew_Babatunde_2026.pdf"
           target="_blank"
           rel="noreferrer"
           >
@@ -66,13 +66,15 @@ function home() {
           <div className="projects-list">
             <h2 className="text-2xl font-bold">projects</h2>
             <a
-              href="https://github.com/andrew-babatunde2004/UGAHACKS11"
+              href="https://apps.apple.com/us/app/ktportal/id6794542013"
               target="_blank"
               rel="noreferrer"
               className="project-link"
             >
-              <span className="project-title">ApothoKeep ↗</span>
-              <span className="project-description">a gemini-leveraged app to keep track of your food</span>
+              <span className="project-title">Kappa Theta Pi App ↗</span>
+              <span className="project-description">
+                an IOS Native app that allows members of Kappa Theta Pi to view events, announcements, and other information about the organization 
+              </span>
             </a>
              <a
               href="https://github.com/andrew-babatunde2004/TradeWise-AI"
@@ -117,7 +119,18 @@ function home() {
               <span className="project-description">
                 an OpenAI-leveraged K-12 education app that explains the solar system in an elementary context
               </span>
-            </a>
+              </a>
+
+              <a
+                href="https://github.com/andrew-babatunde2004/UGAHACKS11"
+                target="_blank"
+                rel="noreferrer"
+                className="project-link"
+              >
+                <span className="project-title">ApothoKeep ↗</span>
+                <span className="project-description">a gemini-leveraged app to keep track of your food</span>
+              </a>
+
           </div>
 
           <div>
